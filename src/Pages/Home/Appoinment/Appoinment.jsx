@@ -27,7 +27,7 @@ const Appoinment = () => {
                                     <input type="text" placeholder="Subject" />
                                 </Col>
                                 <Col md={12} lg={12}>
-                                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Note"></textarea>
                                 </Col>
                                 <Link to="/login"><button className="theme-btn btn-fill form-btn mt-5">Submit</button></Link>
                             </form>
